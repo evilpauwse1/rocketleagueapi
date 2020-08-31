@@ -20,6 +20,6 @@ exports.run = function(player,platform) {
     }
     request(options, function(err, res) {
         if(err) return err;
-        return res.body
+        return JSON.parse(res.body)
     })
 }
