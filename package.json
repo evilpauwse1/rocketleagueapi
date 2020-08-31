@@ -2,6 +2,9 @@
   "name": "@evilpauwse/rocketleagueapi",
   "version": "1.0.3",
   "description": "API Wrapper for the official Psyonix API",
+  "dependencies": {
+    "require": "^6.1.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
