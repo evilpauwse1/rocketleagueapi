@@ -1,9 +1,9 @@
 {
   "name": "@evilpauwse/rocketleagueapi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "API Wrapper for the official Psyonix API",
   "dependencies": {
-    "require": "^6.1.0"
+    "require": "^6.0.0"
   },
   "main": "index.js",
   "scripts": {
