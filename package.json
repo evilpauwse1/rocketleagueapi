@@ -1,0 +1,19 @@
+{
+  "name": "rocketleagueapi",
+  "version": "1.0.0",
+  "description": "API Wrapper for the official Psyonix API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilpauwse1/rocketleagueapi.git"
+  },
+  "author": "evilpauwse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilpauwse1/rocketleagueapi/issues"
+  },
+  "homepage": "https://github.com/evilpauwse1/rocketleagueapi#readme"
+}
