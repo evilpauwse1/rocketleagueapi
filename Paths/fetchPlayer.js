@@ -1,5 +1,8 @@
 exports.run = function(player,platform) {
-    console.log(tk);
+    if(process.env.tk === "" || process.env.tk === undefined) {
+        console.error(`Missing token, please set a token with rocketleagueapi.token("TOKEN HERE")`);
+        return process.exit(1);
+    }
     let params = [player,platform];
     try { 
         params[0] = params[0].toString();
